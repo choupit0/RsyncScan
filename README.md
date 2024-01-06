@@ -3,7 +3,7 @@
 # Description
 Nmap only allows for brute-force attempts or listing visible Rsync modules for a given host, but it doesn't indicate whether they are anonymously accessible (similar to what smb-enum-shares does for SMB).
 
-This Bash script scans a large list of hosts in parallel (adjustable) using Rsync for remote synchronization, **identifying visible modules accessible**, at least **in anonymous read mode**.
+This Bash script scans a large list of hosts in parallel (adjustable) using Rsync for remote synchronization, **identifying visible and modules accessible**, at least **in anonymous read mode**.
 
 This could be useful during internal/external pentesting to assess the level of protection.
 
