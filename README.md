@@ -12,7 +12,7 @@ This could be useful during internal/external pentesting to assess the level of 
 # Statistics
 We can see below with Shodan that there are a significant number of servers listening on TCP port 873 on the Internet, which is the default port for the Rsync service (not counting those listening on non-standard ports).
 
-Approximately ~70% are in the US, and over 50% are associated with Google (which includes public servers in the count of course).
+Approximately ~70% are in the US, and over 50% are associated with Google (which includes legitimate public servers in the count of course).
 
 ![Example Menu](screenshots/rsync-shodan-stats.png)
 
