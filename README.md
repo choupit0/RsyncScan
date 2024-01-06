@@ -27,7 +27,7 @@ The **second mode is much faster as it scans hosts in parallel** (default is "50
 
 ![Example Menu](screenshots/rsyncscan-parallel-mode.png)
 
-In both cases, once completed, a **file will be generated containing all vulnerable hosts** (or not if it's a public server = intentional) with the accessible modules (rsync command):
+In both cases, once completed, a **file will be generated containing all vulnerable hosts** (or not if it's a legitimate public server = intentional) with the **accessible modules** (rsync command):
 
 ![Example Menu](screenshots/rsyncscan-results.png)
 
